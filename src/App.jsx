@@ -28,7 +28,7 @@ useEffect(()=>{
 
   return (
     <>
-     <h1>TodoList</h1>
+     <h1>TodoList</h1> 
 
      <FormList addTarea={addTarea} />
      {tareas.length > 0 && <TodoList tareas={tareas} /> }
